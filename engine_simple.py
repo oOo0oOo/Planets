@@ -84,7 +84,7 @@ class Game(object):
 			for p, c in planets.items():
 				# Get colors of all neighbour planets
 				n_colors = [planets[n] for n in self.planet_graph[p]]
-				if len(list(set(n_colors))) != len(n_colors):
+				if len(set(n_colors)) != len(n_colors):
 					break
 			else:
 				found = True
