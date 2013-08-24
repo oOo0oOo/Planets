@@ -1,0 +1,35 @@
+Planets Simple Rules
+
+Simple: Each round each player can send one group.
+The groups stay (and occupy) this planet until they fall in battle.
+
+2+ players
+
+A typical round:
+1. Players assemble group:
+	using color cards, group cards (e.g. 3 super troopers), ...
+
+2. In turns each player can:
+	a) play a card to move the group OR
+	b) play a special card (special move) OR
+	c) stop his move by pressing a button
+	
+	some rule when to stop: e.g. after the first player presses the button>
+		n more cards from each other player
+
+3. Each player gets color cards for occupied planets
+
+4. Color cards can be swapped with the bank or other players (optional)
+
+
+Minimal analogc requirements:
+- Cards & Barcode Reader
+- 2 RGB LEDs per planet:
+	Color of planet
+	Occupancy as a gradient btwn 2 player colors
+- 1 LED per player (to indicate whos turn it is)
+- 1 Button per player (could possibly house the player LED)
+
+20 planets --> 40+ RGB LEDs
+
+

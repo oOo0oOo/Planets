@@ -1,0 +1,31 @@
+Planets Advanced Rules
+
+Advanced: groups can be moved more than once.
+Requires display of groups on planets (to be selected for next move)
+
+2+ players
+
+Each player can have up to n groups of fighters.
+Each round players can move groups from planet to planet (using colors).
+
+Analog requirements:
+Each planet: 	
+			- 1 LED for color
+			- displaying current group (LED, number, ...)
+
+Each player:
+			- 1 LED (status: e.g. indicate phase)
+			- select n groups (n buttons, slider + LEDs, ...)
+
+General Electronics:
+			- Microcontroller (raspberry pi)
+			- Barcode reader
+			- Hub for controllers (micro USB)
+			- LED controller ICs (e.g. TLC5940 driving 16 RGB LEDs)
+			- 
+			- PCBs, wiring & resistors
+
+Other:
+			- Cards
+
+
