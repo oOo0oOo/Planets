@@ -9,23 +9,38 @@ Each player can have up to n groups of fighters.
 Each round players can move groups from planet to planet (using colors).
 
 Analog requirements:
-Each planet: 	
-			- 1 LED for color
-			- displaying current group (LED, number, ...)
+25 planet: 	
+			- 25 LED for color
+			- displaying current group (e.g. 25 LED, number, ...)
+			Total: 80 USD incl controllers
 
-Each player:
-			- 1 LED (status: e.g. indicate phase)
-			- select n groups (n buttons, slider + LEDs, ...)
+4 players:
+			- 4 LED (status: e.g. indicate phase) (20 USD)
+			- select n groups (e.g. slider, poti) (20 USD)
+			- 1 Button (could have the LED integrated) (10-20 USD)
+			Total: 60 USD
 
 General Electronics:
-			- Microcontroller (raspberry pi)
-			- Barcode reader
-			- Hub for controllers (micro USB)
-			- LED controller ICs (e.g. TLC5940 driving 16 RGB LEDs)
-			- 
-			- PCBs, wiring & resistors
+			- Microcontroller (raspberry pi) (30 / 40 USD)
+			- Barcode reader (70 USD)
+			- (Hub for player controllers if micro USB connection otherwise "Flachbandkabel")
+			- LED controller ICs e.g. TLC5940 driving 16 RGB LEDs 
+				Min 3 ICs, depends on number of LEDs per player (18 USD)
+			- PCBs, wiring & resistors  (20 USD)
+			Total: 150 USD
+
+Casing/Woodwork:
+			- Board (20 CHF)
+			- (Plexiglas, precisely milled for added effect) (10 CHF)
+			- Player controller casings (20 CHF)
+			Total: 50 CHF
 
 Other:
-			- Cards
+			- Mailing: ca 30 CHF
+			- Cards with barcodes
+			- (Maps with barcode)
 
+
+Estimated price per unit:
+	290 USD + 80 CHF = ca. 350 CHF
 

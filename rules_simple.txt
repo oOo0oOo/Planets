@@ -22,14 +22,12 @@ A typical round:
 4. Color cards can be swapped with the bank or other players (optional)
 
 
-Minimal analogc requirements:
+Minimal analog requirements:
 - Cards & Barcode Reader
 - 2 RGB LEDs per planet:
 	Color of planet
-	Occupancy as a gradient btwn 2 player colors
-- 1 LED per player (to indicate whos turn it is)
+	Occupancy as a gradient btwn player colors
+- 1 LED per player (to indicate whose turn it is)
 - 1 Button per player (could possibly house the player LED)
 
-20 planets --> 40+ RGB LEDs
-
-
+16 LEDs per IC (e.g 3 controllers = 22 planets + 4 players)
